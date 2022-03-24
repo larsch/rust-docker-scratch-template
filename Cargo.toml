@@ -1,0 +1,11 @@
+[package]
+name = "rust-docker-scratch-template"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sqlite = "0.26"
+reqwest = { version = "0.11", features = [ "blocking" ] }
+openssl = { version = "*", features = [ "vendored" ] }
+chrono = "0.4"
+chrono-tz = "0.5"
